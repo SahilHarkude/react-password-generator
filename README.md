@@ -38,7 +38,8 @@ It allows users to create secure passwords with custom options, strength analysi
 
 ![App Preview](./preview.png)
 
-> (Optional: Add a screenshot later for better presentation)
+> <img width="585" height="705" alt="image" src="https://github.com/user-attachments/assets/dd90ef79-d9c3-4d3c-9d7a-f8bed14168f6" />
+
 
 ---
 
