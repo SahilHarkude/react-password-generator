@@ -1,16 +1,52 @@
-# React + Vite
+# 🔐 React Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive password generator built using **React**.  
+It allows users to create secure passwords with custom options, strength analysis, dark mode, and persistent history.
 
-Currently, two official plugins are available:
+🌐 **Live Demo:**  
+👉 https://password-generator-jade-zeta-51.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ✅ Generate secure random passwords
+- 🔢 Custom length selection
+- 🔠 Include Uppercase / Lowercase / Numbers / Symbols
+- 📊 Password strength indicator (Weak / Medium / Strong)
+- 🌙 Dark / Light mode toggle
+- 💾 Save last 5 generated passwords
+- 🗑️ Clear password history
+- 📋 One-click copy to clipboard
+- 📱 Fully responsive design
+- 💾 LocalStorage persistence
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend:** React (Vite)
+- **Styling:** CSS
+- **State Management:** React Hooks (useState, useEffect)
+- **Storage:** LocalStorage
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
+
+---
+
+## 📸 Preview
+
+![App Preview](./preview.png)
+
+> (Optional: Add a screenshot later for better presentation)
+
+---
+
+## ⚙️ Installation & Setup
+
+To run this project locally:
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/SahilHarkude/react-password-generator.git
