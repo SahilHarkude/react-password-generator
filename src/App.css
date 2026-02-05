@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* App Themes */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.app.dark {
+  background: #0f172a;
+  color: white;
+}
+
+.app.light {
+  background: #f8fafc;
+  color: #020617;
+}
+
+/* Card */
+
+.container {
+  width: 100%;
+  max-width: 420px;
+  background: #020617;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.app.light .container {
+  background: white;
+}
+
+/* Top Bar */
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.theme-btn {
+  background: none;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* Output */
+
+.output {
+  display: flex;
+  margin: 15px 0;
+}
+
+.output input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px 0 0 6px;
+}
+
+.output button {
+  background: #38bdf8;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 0 6px 6px 0;
+}
+
+/* Strength */
+
+.strength {
+  text-align: center;
+  font-weight: bold;
+}
+
+.strength.weak {
+  color: #ef4444;
+}
+
+.strength.medium {
+  color: #facc15;
+}
+
+.strength.strong {
+  color: #22c55e;
+}
+
+/* Settings */
+
+.settings label {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+/* Button */
+
+.generate-btn {
+  width: 100%;
+  background: #22c55e;
+  border: none;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* History */
+
+.history {
+  margin-top: 20px;
+}
+
+.history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.history li {
+  background: rgba(0,0,0,0.1);
+  padding: 6px;
+  margin: 5px 0;
+  border-radius: 4px;
+  word-break: break-all;
+}
+
+/* Clear Button */
+
+.history-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.clear-btn {
+  background: #ef4444;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.clear-btn:hover {
+  opacity: 0.85;
+}
